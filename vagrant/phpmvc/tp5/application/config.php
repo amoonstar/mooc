@@ -25,7 +25,7 @@ return [
     // 是否支持多模块
     'app_multi_module'       => true,
     // 入口自动绑定模块
-    'auto_bind_module'       => false,
+    'auto_bind_module'       => false,//false true
     // 注册的根命名空间
     'root_namespace'         => [],
     // 扩展函数文件
@@ -89,8 +89,7 @@ return [
     // URL参数方式 0 按名称成对解析 1 按顺序解析
     'url_param_type'         => 1,
     // 是否开启路由
-    'url_route_on'           => true,
-    // 路由使用完整匹配
+    'url_route_on'           => true,//true false
     'route_complete_match'   => false,
     // 路由配置文件（支持配置多个）
     'route_config_file'      => ['route'],
