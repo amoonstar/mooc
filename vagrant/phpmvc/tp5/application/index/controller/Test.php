@@ -1,7 +1,7 @@
 <?php
 namespace app\index\controller;
 
-class Index
+class Test
 {
     public function index()
     {//http://tp5.imooc.test  //tp5.imooc.test/index.php/index/index  //http://tp5.imooc.test/index.php/index/index/test
@@ -11,8 +11,9 @@ class Index
     public function test(){
         //http://tp5.imooc.test/index.php/index/index/test
         //http://tp5.imooc.test/index/index/test
-        //http://tp5.topzrt.com/index.php/index/index/test
-		return 'hello , boy';
+        //http://tp5.topzrt.com/index.php/index/Test/test
+        //http://tp5.topzrt.com/index.php/home/Test/test
+        return 'hello , boy11111222';
 //        $dbhost = 'localhost:3306';  // mysql服务器主机地址
 //        $dbuser = 'root';            // mysql用户名
 //        $dbpass = '123456';          // mysql用户名密码
@@ -23,5 +24,11 @@ class Index
 //        }
 //        echo '数据库连接成功！';
 //        mysqli_close($conn);
-	}
+    }
+    public function info($id){
+        //http://tp5.topzrt.com/index.php/index/Test/info
+        echo url('Index/Test/info',['id'=>17]).'<br/>';
+//        return "{$id}";
+        return $id;
+    }
 }
