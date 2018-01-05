@@ -13,7 +13,7 @@ class Index
         //http://tp5.imooc.test/index/index/test
         //http://tp5.topzrt.com/index.php/index/index/test
 		return 'hello , boy';
-//        $dbhost = 'localhost:3306';  // mysql服务器主机地址
+//        $dbhost = 'localhost:3306';  // mysql服务器主机地址an
 //        $dbuser = 'root';            // mysql用户名
 //        $dbpass = '123456';          // mysql用户名密码
         $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
